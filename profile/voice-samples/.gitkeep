@@ -1,0 +1,7 @@
+# Voice Samples
+
+Drop transcripts of your speaking samples here as individual files (one per sample).
+
+Naming: `YYYY-MM-DD-short-slug.md`
+
+The strategist reads everything in this folder during voice extraction.

@@ -1,0 +1,56 @@
+# Garden
+
+Captured ideas — raw, half-formed, post-worthy, personal, strategic, or kill.
+
+## Format (v1 — pick one and stick with it)
+
+**One markdown file per seed.** Filename: `YYYY-MM-DD-<slug>.md`. Example: `2026-05-18-the-pitch-pattern-no-one-talks-about.md`.
+
+Each file has frontmatter + body:
+
+```markdown
+---
+title: "The exact title the user wrote, verbatim, never polished"
+captured: 2026-05-18T14:32:00
+bucket: unclassified   # unclassified / post-worthy / trend-angle / personal / strategy / kill / snoozed
+source: capture        # capture / audit-mining / inbox-mining / trends / user-paste
+format: ""              # one of the user's formats, set during grill
+job: ""                 # teach / provoke / show-thinking, set during grill
+audience_test: ""       # pass / fail / unclear, set during grill
+money_path: ""          # set during grill
+status: fresh           # fresh / grilled / draft / shipped / killed
+---
+
+# [Title]
+
+[The raw body of what the user wrote when they captured it. Verbatim. Don't edit.]
+
+## Grill notes
+[Filled during grill, captures their exact phrasing from each grill question.]
+
+## Drafts
+[Links or inline text of drafts produced from this seed.]
+```
+
+## Bucket types (canonical)
+
+- `unclassified` — freshly captured, not yet sorted
+- `post-worthy` — passed audience-of-one test, ready to grill
+- `trend-angle` — from `/strategist trends`, sourced externally
+- `personal` — useful note but not for public posting
+- `strategy` — meta-thought about your own strategy (not content)
+- `kill` — rejected (don't delete, archive)
+- `snoozed` — defer for 30 days, resurface later
+
+## What the strategist reads from here
+
+- On `/strategist` (no arg, Phase 3): list seeds where `bucket: post-worthy` AND `audience_test: pass`, grouped by format. Surface format-mix gaps. Also surface `unclassified` seeds older than 14 days (offer to triage in-conversation).
+- On `/strategist grill <title>`: find the file by matching title.
+- On `/strategist capture "<idea>"`: create a new file with `bucket: unclassified` and the title verbatim.
+- On `/strategist generate`: pick from `bucket: post-worthy` seeds.
+
+## What you do NOT do
+
+- Don't polish titles for display.
+- Don't auto-classify on capture (that's triage's job).
+- Don't delete seeds without explicit user approval — move to `bucket: kill` instead.

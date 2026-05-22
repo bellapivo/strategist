@@ -1,0 +1,41 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Claude Code session state
+.claude/sessions/
+.claude/cache/
+
+# User drafts in progress (keep finalized drafts in profile/drafts/)
+profile/drafts/in-progress.json
+
+# Local-only profile overrides
+profile/local/
+
+# Transcript inbox — meetings/voice notes contain sensitive content
+inbox/*/
+!inbox/.gitkeep
+
+# Optional: if you want to keep your personal profile private when sharing the repo,
+# uncomment the next two lines. (For Bella as user #1, profile/ stays tracked.)
+# profile/
+# !profile/.gitkeep
+
+# User-generated content — ignored so the template repo stays clean
+# (TODO stubs in profile/*.md and profile/audit/*.md are tracked as the install template)
+profile/garden/*.md
+profile/drafts/*.md
+profile/voice-samples/*.md
+profile/pushes/*.md
+profile/profile-archive-*/
+
+# Preserve folder structure with .gitkeep files
+!profile/garden/.gitkeep
+!profile/drafts/.gitkeep
+!profile/voice-samples/.gitkeep
+!profile/pushes/.gitkeep

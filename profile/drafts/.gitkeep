@@ -1,0 +1,5 @@
+# Drafts
+
+Drafts the strategist produces during grill sessions land here as `YYYY-MM-DD-<slug>.md`.
+
+Drafts-in-progress (paused grills) live in `in-progress.json`.
