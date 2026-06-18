@@ -277,3 +277,7 @@ If you're not there in 30 days, something's off. Tell the strategist: "audit my 
 The strategist is opinionated. It will push back on you. It will demote pillars when the data says they're dead. It will surface emergent topics you didn't know you cared about.
 
 Let it disagree. Argue back. That's the whole job.
+
+---
+
+Built by [Bella Pivo](https://bellapivo.com). Questions or want help with your brand? Reach out anytime.

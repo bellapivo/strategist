@@ -2,6 +2,8 @@
 
 A fractional brand manager + social media manager you run in your terminal. Built on Claude Code.
 
+Built by [Bella Pivo](https://bellapivo.com).
+
 You install it, run `/strategist`, and it interviews you to build a profile — your audience-of-one, your pillars, your voice rules, your no-list. Then it operates against that profile: grills your ideas one open question at a time, drafts in your actual voice (never fabricated), hunts teardown targets, walks comment replies, runs weekly strategy reviews.
 
 It's not anyone specific. **It's the strategist who would build your brand if you could afford to hire one.**
@@ -131,3 +133,9 @@ v3.7 — adaptive intake. Setup now opens by teaching what a personal brand is, 
 ## Built on
 
 [Claude Code](https://claude.com/code).
+
+---
+
+## Credit
+
+Built by **Bella Pivo**. Questions, feedback, or want help with your own brand? Reach out at [bellapivo.com](https://bellapivo.com).
