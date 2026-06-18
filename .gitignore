@@ -39,3 +39,7 @@ profile/profile-archive-*/
 !profile/drafts/.gitkeep
 !profile/voice-samples/.gitkeep
 !profile/pushes/.gitkeep
+
+# local-only, not for public repo
+v3.6-feedback.md
+research-personal-brand-prompt.md

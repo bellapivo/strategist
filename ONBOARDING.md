@@ -75,12 +75,12 @@ The strategist runs in **3 phases**.
 
 ### Phase 1 — INTAKE (~45 min): Who you are
 
-Pure self-discovery. No tool setup here. 4 steps + synthesis:
+Pure self-discovery. No tool setup here. It opens by teaching you what a personal brand actually is, then walks 4 steps + synthesis:
 
-1. **Bio interview (~20 min)** — 6 questions: who you are (incl. your name + platforms), why now + 12-month picture, who you want to reach, the thing not on your LinkedIn, what's off-limits, what content is FOR. **Use voice/dictation if you can.**
+1. **The room test + bio interview (~20 min)** — first, the strategist tells you how it thinks about a personal brand (it's what people say about you when you're not in the room), shows you an example, then asks you to finish that sentence about yourself. Then 5 short questions: who you are (incl. your name + platforms), why now + 12-month picture, who you're trying to reach, the thing not on your LinkedIn, and what's off-limits. The questions adapt to you, an author and a VC don't get the same interview. **Use voice/dictation if you can.**
 2. **Writing samples (~10 min)** — paste 3–5 things you've written.
-3. **Speaking sample OR voice dump (~10 min)** — one podcast transcript, OR 5 minutes of you talking about your core topic.
-4. **Voice north stars (~5 min)** — 2–3 people whose voice you want.
+3. **Speaking sample OR voice dump (~10 min)** — one podcast or video transcript, OR 5 minutes of you talking about your core topic. (If you have public socials, the strategist can read those for you instead.)
+4. **Creators you want to sound like (~5 min)** — 2–3 people whose voice resonates with you. Give handles and the strategist reads their stuff directly.
 
 Then synthesis (~10 min): strategist proposes pillars + voice + audience-of-one + no-list **from your data**. You sign off. Profile locks. **A `CLAUDE.md` is generated at the project root** — from now on, Claude auto-loads as your strategist every time you open Claude Code in this folder.
 

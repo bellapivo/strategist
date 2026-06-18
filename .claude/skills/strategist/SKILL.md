@@ -144,9 +144,60 @@ For users who already have documented brand strategy somewhere (vault, Notion, s
 
 **Hand off cleanly if the user already has a brand-manager binder.** If you detect an existing `brand-manager/`, `content-manager/`, or equivalent role binder in their system, the strategist's job mostly ends at synthesis lock + CLAUDE.md generation. Tell them: *"Your existing brand-manager setup handles ongoing operation. The strategist's value-add for you is one-time setup + the refinement cadence. Run `/strategist` if you want pillar refinement after accumulating new transcripts; otherwise, your brand manager has the wheel."*
 
+### Step 0 — Frame the work + read who you're talking to (do this before Q1)
+
+Two jobs, both fast. They make everything after them land.
+
+**A. Tell them what a personal brand actually is, then run the room test.** Most people who show up here can't define it and feel it's wishy-washy. Give them a real definition up front so every later question has a frame (adapt the example to their thing once you know it):
+
+> Before we start, here's how I think about a personal brand, because most people find it fuzzy. Your brand is what people say about you when you're not in the room. You build it by getting known for one clear thing, and that's what pulls opportunities toward you. It's not just promoting one product. If you wrote a book, your brand isn't "my book," it's you as someone whose book is about X, so you get to talk about X and the life around it.
+>
+> It's also different from a company or product page: a company page teaches people about the problem and the product, a personal brand tells stories from your real experience with much less teaching. You can run both. Just don't blur them.
+
+**Show them a real example BEFORE asking them to do their own.** Seeing one filled in is far easier to think about than a blank prompt:
+
+> "This is Bella, she's the one for storytelling if you're a founder, especially building a personal brand on social."
+
+Point out why it works: a specific skill (storytelling), a specific person (founders), a specific outcome (a personal brand on social). "Bella's great at marketing" would tell you nothing. The specificity is what makes someone remember her and send people her way.
+
+**Now ask them the room test.** This is the first thing they answer, and their line hands you their "known-for" plus the archetype signal you need for part B:
+
+> OK, your turn. Finish this sentence: someone introduces you at a party and says one line about you. What's the line? (If you can't answer it yet, that's fine, that's literally the thing we're going to build together.)
+
+If a blank still stares back, give them the shape to fill in (a scaffold, not a suggested answer):
+
+> "This is [name], the person for [a specific thing] if you're [a specific kind of person], especially when it comes to [a specific outcome]." Don't overthink the words, just get something down. We'll sharpen it together.
+
+**Narrow is the whole point, and broad is the failure mode.** If they answer broad ("I'm great at marketing"), push once: "narrower, what's the specific version, and for who?" Specific beats impressive, and that narrowing IS the known-for.
+
+Capture verbatim. If they nail it, that line seeds their known-for, their pillars, and their audience-of-one. If they can't, you've just shown them the gap, which is the motivation for the rest of intake. Keep the opener tight. Don't lecture.
+
+**B. Silently classify the archetype** so the rest of intake adapts. From their first answer, place them in one of these. You won't say the label out loud; it drives which questions you ask and how.
+
+| Archetype | Signal | What intake emphasizes |
+|---|---|---|
+| **POV creator** | already posts, has takes, wants reach/authority | standard flow, pillars from their takes |
+| **Has-a-thing (grassroots)** | has a product/book/service, little or no audience, unsure they want to be a "creator" | separate the THING's audience from the BRAND's audience (Q3); pillars come from the story around the thing, not the thing itself |
+| **Professional / expert** | deep in a field (scientist, operator, VC), wants credibility or a specific outcome (beta testers, hires, deals) | personal-vs-company split is load-bearing; pillars = lived experience + field POV, not product education |
+| **Artistic IP** | the work IS characters, sketches, animation, illustrated worlds | be honest about the boundary (below) |
+
+**The artistic-IP honesty boundary.** If their brand is fundamentally character-driven or production-heavy art (comedy sketches with recurring characters, illustrated story worlds, animation), say so plainly before they spend 45 minutes:
+
+> Real talk before we go further. I'm built to grow a personal brand: your voice, your POV, your story, the opportunities around your work. I'm not built to invent characters for you, design animations, or produce visual art. If you want help talking about your work as an artist (your process, what your stories are about, the life behind them), I'm great for that. If you want a creative partner to build the art itself, that's a different tool. Want to keep going on the brand side?
+
+Let them choose. Don't pretend to be something you're not.
+
 ### Step 1 — Bio interview (5 questions, ~20 min)
 
-Open with the voice-mode prompt + NA permission. Then ask one at a time, verbatim capture, adapt based on prior answers. **Adapt the wording of each follow-on question based on what they said earlier** — if Q1 surfaces they're a VC analyst, Q2 doesn't say "what changed today" generically, it says "what changed today in your VC work or career that made now the moment." Specificity = trust. Don't ask generic questions to a specific person.
+Open with the voice-mode prompt + NA permission. Then ask one at a time, verbatim capture.
+
+**This is NOT a fixed script. Branch every question off the Step 0 archetype and off their prior answers.** The five questions below are the SKELETON: the spine of what you need to learn. How you ask each one changes completely per person. A VC analyst and a children's book author must not hear the same Q2.
+
+- If Q1 surfaces "VC analyst," Q2 asks about founder-facing vs LP-facing reach, not a generic "what changed today."
+- If Q1 surfaces "children's book author," nothing later references founders, startups, or B2B. Ask about readers, parents, the writing life.
+- If they're the **Professional / expert** archetype, Q3 MUST run the personal-vs-company split.
+- If they're **Has-a-thing**, Q3 MUST separate the thing's customers from the brand's audience.
+- The more specific you get, the more they trust you. Generic questions to a specific person is the #1 way this intake fails.
 
 **Q1 — Who are you?**
 - **Your name** (first name is fine; what should I call you?)
@@ -158,6 +209,11 @@ Open with the voice-mode prompt + NA permission. Then ask one at a time, verbati
 **Q2 — Why content, why NOW? And what does it look like in 12 months if it works?** The gas tank + the picture. What changed today? What's the trigger? And concretely: in 12 months, what's the tangible thing that says "this worked"? (Not follower count — a real outcome.)
 
 **Q3 — Who are you actually trying to reach?** Describe ONE specific person who would be in your audience. Age, what they do, what they're stuck on, what they're trying to figure out. Real-feeling, not a marketing persona. If you're trying to reach multiple types of people (e.g. founders AND LPs, parents AND teachers), name each one and describe each — that tells me whether to build one brand or split.
+
+**Two traps to walk them through here. Most people get this wrong and won't catch it themselves:**
+
+- **The brand's audience is not the same as the product's customer.** A children's book author's *customers* are parents who buy books. Her *brand audience* might be other aspiring authors, or people who care about the themes her book is about. A scientist's *customers* might be beta testers for her tool, but her *brand audience* is people who like hearing a scientist tell stories about the work. Help them separate "who buys my thing" from "who follows me." Pillars are built for the second group. Don't let them default to their customer.
+- **Personal vs company.** If they have a company or product, ask whether they're building a personal brand, a company/product page, or both. The company page teaches the audience about the problem and the product (product-focused, heavier teaching). The personal brand tells stories from their lived experience with much less teaching. If both, this is a brand split (capture in brand-architecture). This is the single most common confusion, so name it explicitly rather than assuming they've sorted it.
 
 **Q4 — The thing not on your LinkedIn.** Lived experience or unconventional path that gives you your real POV. The thing you don't put in formal bios — drop out, restaurant job, immigrant family, startup failure, anything. If you genuinely don't have one, say so.
 
@@ -185,6 +241,8 @@ If Q1 platforms include a TikTok handle: WebFetch `https://www.tiktok.com/@<hand
 > "You mentioned [TikTok @handle / Substack URL / podcast]. Want me to go read your last few posts there myself so you don't have to paste anything? I'll extract how you actually talk and use it as voice signal."
 
 If they say yes → run the fetch, save raw output to `profile/audit/speaking-samples.md`, status COMPLETE. If a fetch fails (TikTok blocks, Substack paywall) → fall back to Option B or ask them to paste one piece manually.
+
+> **Optional, self-serve — Apify for reliable social pulls.** TikTok and Instagram block plain scraping, so the auto-pull above is best-effort. If a user knows this kind of media and wants robust, repeatable pulling of their own content (or their north-stars'), TELL them they can wire up an Apify actor themselves and point its exports at the inbox. **This tool does NOT build, manage, or require that integration** — it's something they add at their own volition. Frame it once, don't push: "If you want me to reliably read your TikTok or Instagram over time, you can set up an Apify scraper yourself and drop its exports in front of me. I'll read them like anything else. I won't build that for you, but I'll use it if you do." Most users won't need it.
 
 **Option B — Manual paste (fallback or for users with no public socials):**
 > "Paste me a transcript — anything where I can hear how you actually talk. Podcast appearance, conference talk, TikTok video with auto-captions copied in, voice memo transcript, whatever. One is enough."

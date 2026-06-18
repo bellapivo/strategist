@@ -124,7 +124,7 @@ The strategist will detect your empty profile and start setup (Phase 1).
 
 ## Status
 
-v0.1 — first cut. The framework gets validated and sharpened by running it on a real user end-to-end before scaling to more.
+v3.7 — adaptive intake. Setup now opens by teaching what a personal brand is, classifies the user's archetype (POV creator / has-a-thing / professional-expert / artistic-IP), and branches the interview off that instead of running a fixed script. The framework gets validated and sharpened by running it on real users end-to-end before scaling.
 
 ---
 
